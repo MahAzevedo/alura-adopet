@@ -1,0 +1,38 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --branco: #E5E5E5;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+}
+
+body {
+    background-color: var(--azul);
+}
+
+footer {
+
+    /* retangulo verde do rodape MOBILE */
+    position: absolute;
+    width: 360px;
+    height: 104px;
+    color: #FFFFFF;
+    left: 0%;
+    top: 813px;
+    background: #36D6AD;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
